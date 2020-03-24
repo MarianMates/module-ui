@@ -1,5 +1,5 @@
 {
-  "name": "magento/ui",
+  "name": "magento/uicomp",
   "description": "",
   "require": {
     "php": "^7.0|^7.1",
@@ -18,7 +18,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Magento\\Ui\\": ""
+      "Magento\\UiComp\\": ""
     }
   }
 }
