@@ -1,0 +1,9 @@
+<div>
+    <form class="form payment-form" data-bind="attr: {'data-hasrequired': $t('* Required Fields')}">
+        <fieldset class="fieldset">
+            <!-- ko foreach: getRegion('payment-form-fields') -->
+            <!-- ko template: getTemplate() --><!-- /ko -->
+            <!--/ko-->
+        </fieldset>
+    </form>
+</div>
