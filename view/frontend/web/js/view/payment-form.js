@@ -5,6 +5,7 @@ define([
     'Magento_UiComp/js/model/payment-form-data-validator'
 ], function(Component, additionalValidators, paymentFormDataValidator) {
     'use strict';
+    // Add the payment-form-data-validator to the validators pool
     additionalValidators.registerValidator(paymentFormDataValidator);
     
     return Component.extend({

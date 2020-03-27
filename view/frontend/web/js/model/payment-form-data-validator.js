@@ -7,6 +7,9 @@ define([
 ], function ($, $t, messageList, registry) {
         'use strict';
         return {
+            // Validate the payment form and add the error message. 
+            // The error message's innerText is defined in payment-form.html -> data-bind="attr: {'data-hasrequired': $t('* Required Fields')}".
+            // The validation rules come from jquery validator which is also extended by magento
             validate: function () {
                 var isValid = false,
                 dataForm = $('.payment-form');

@@ -18,12 +18,14 @@
                                                                 <item name="children" xsi:type="array">
                                                                     <item name="before-place-order" xsi:type="array">
                                                                         <item name="children" xsi:type="array">
+                                                                            <!-- The payment form -->
                                                                             <item name="payment-form" xsi:type="array">
                                                                                 <item name="sortOrder" xsi:type="string">0</item>
                                                                                 <item name="component" xsi:type="string">Magento_UiComp/js/view/payment-form</item>
                                                                                 <item name="config" xsi:type="array">
                                                                                     <item name="template" xsi:type="string">Magento_UiComp/payment-form</item>
                                                                                 </item>
+                                                                                <!-- The children of the payment form -->
                                                                                 <item name="children" xsi:type="array">
                                                                                      <item name="payment-form-fieldset" xsi:type="array">
                                                                                         <item name="component" xsi:type="string">uiComponent</item>

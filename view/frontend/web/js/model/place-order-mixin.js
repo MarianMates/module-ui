@@ -7,7 +7,7 @@ define([
 
     return function (placeOrderAction) {
 
-        /** Override default place order action and add agreement_ids to request */
+        /** Override default place order action and add paymentFormData to request */
         return wrapper.wrap(placeOrderAction, function (originalAction, paymentData, messageContainer) {
             paymentFormData(paymentData);
 
